@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green_orama_lighter">#b0f2a0</color>
+    <color name="green_orama_light">#74d15e</color>
+    <color name ="green_orama">#369D1E</color>
+
+    <color name="blue_level1">#A6ECFC</color>
+    <color name="blue_level2">#68F1DD</color>
+    <color name="green_level1">#91ED6E</color>
+    <color name="green_level2">#B0F42A</color>
+    <color name="green_level3">#DDF40C</color>
+    <color name="yellow_level1">#FAF00E</color>
+    <color name="yellow_level2">#FFDC00</color>
+    <color name="orange_level1">#FFBB00</color>
+    <color name="orange_level2">#FF8800</color>
+    <color name="orange_level3">#FF5E00</color>
+    <color name="red_level1">#FF0600</color>
+    <color name="red_level2">#B51414</color>
+</resources>

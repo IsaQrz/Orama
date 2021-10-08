@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">DesafioOrama</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="list_funds">LISTA DE FUNDOS</string>
+    <string name="funds">FUNDOS</string>
+    <string name="search">Pesquisar fundo por nome</string>
+
+    <string name="card_fund_category">Renda Fixa</string>
+    <string name="card_fund_subcategory">Tesouro Inflação + Juros</string>
+    <string name="card_fund_name">NOME DO FUNDO</string>
+    <string name="card_fund_profit">Rentabilidade do mês (%): </string>
+    <string name="card_fund_date">Data da cota: </string>
+    <string name="card_fund_min">Aplicação mínima: R$ </string>
+    <string name="card_fund_days">Dias para resgate: </string>
+
+    <string name="filter">FILTROS</string>
+    <string name="category">Categoria</string>
+    <string name="fixed_income">Renda fixa</string>
+    <string name="different_strategy">Estratégia diferenciada</string>
+    <string name="variable_income">Renda variável</string>
+    <string name="subcategory">Subcategoria</string>
+
+    <string name="fixInc_national_treasury_fees">Tesouro Inflação + Juros</string>
+    <string name="fixInc_selic_treasury">Tesouro Selic</string>
+    <string name="fixInc_fixed">Renda Fixa</string>
+    <string name="fixInc_fixed_global">Renda Fixa Global</string>
+    <string name="fixInc_fixed_prefix">Renda Fixa Prefixado</string>
+    <string name="fixInc_high_grade">Crédito Privado High Grade</string>
+    <string name="fixInc_private_credit">Crédito Privado</string>
+    <string name="fixInc_FIDC_multi">Cotas de FIDCs Multigestor</string>
+    <string name="fixInc_FIDC_proper"> Cotas de FIDCs Próprios</string>
+    <string name="fixInc_debent">Debêntures Isentas</string>
+    <string name="fixInc_creditory">Direitos Creditórios</string>
+
+    <string name="difStr_crypto">Criptoativos</string>
+    <string name="difStr_macro_value">Macro Valorização</string>
+    <string name="difStr_macro_balance">Macro Equilibrio</string>
+    <string name="difStr_macro_consist">Macro Consistência</string>
+    <string name="difStr_specific">Estratégia Específica</string>
+    <string name="difStr_specific_ext">Estratégia Específica - Investimentos no Exterior</string>
+    <string name="difStr_dynamic">Estratégia Dinâmica</string>
+    <string name="difStr_quantitative">Quantitativo</string>
+    <string name="difStr_multi">Multigestor</string>
+    <string name="difStr_exchange">Cambial</string>
+    <string name="difStr_social">Impacto Social</string>
+    <string name="difStr_fees_currency">Juros e Moedas</string>
+    <string name="difStr_ls_direct">Long &amp; Short Direcional</string>
+    <string name="difStr_ls_neutral">Long &amp; Short Neutro</string>
+
+    <string name="varInc_var_global">Renda Variável Global</string>
+    <string name="varInc_long_only">Valor Long Only</string>
+    <string name="varInc_plus">Valor Plus</string>
+    <string name="varInc_quantitative">Quantitativo</string>
+    <string name="varInc_index">Indexado</string>
+    <string name="varInc_multi">Multigestor</string>
+    <string name="varInc_yield">Dividendos</string>
+    <string name="varInc_equity">Equity Hedge/Long Biased</string>
+    <string name="varInc_small_caps">Small Caps</string>
+
+    <string name="min_application">Aplicação mínima</string>
+    <string name="fund_risk">Risco do Fundo</string>
+    <string name="min_retrieval">Resgate mínimo</string>
+
+    <string name="fund_detail">DETALHAMENTO DO FUNDO</string>
+    <string name="fund_charact">Características do fundo</string>
+    <string name="fund_application">Aplicação</string>
+    <string name="fund_retrieval">Resgate</string>
+    <string name="fund_tax">Taxas</string>
+    <string name="fund_complete_data">Dados completos do fundo</string>
+    <string name="fund_files">Arquivos do fundo</string>
+
+    <string name="empty_list">Nenhum resultado encontrado</string>
+
+
+</resources>
