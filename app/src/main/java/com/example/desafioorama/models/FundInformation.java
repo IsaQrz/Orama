@@ -1,13 +1,14 @@
 
 package com.example.desafioorama.models;
 
+import java.io.Serializable;
 import java.util.List;
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("jsonschema2pojo")
-public class CompleteFund {
+public class FundInformation implements Serializable {
 
     @SerializedName("initial_date")
     @Expose

@@ -5,8 +5,10 @@ import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
+
 @Generated("jsonschema2pojo")
-public class Specification {
+public class Specification implements Serializable {
 
     @SerializedName("fund_main_strategy_name")
     @Expose

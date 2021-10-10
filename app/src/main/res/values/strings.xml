@@ -16,6 +16,14 @@
     <string name="list_funds">LISTA DE FUNDOS</string>
     <string name="funds">FUNDOS</string>
     <string name="search">Pesquisar fundo por nome</string>
+    <string name="filter">Filtrar por: </string>
+    <string-array name="filter_list">
+        <item>Estratégia</item>
+        <item>Perfil de risco</item>
+    </string-array>
+    <string name="profile_conservative">Conservador</string>
+    <string name="profile_moderate">Moderado</string>
+    <string name="profile_dashing">Arrojado</string>
 
     <string name="card_fund_category">Renda Fixa</string>
     <string name="card_fund_subcategory">Tesouro Inflação + Juros</string>
@@ -25,10 +33,9 @@
     <string name="card_fund_min">Aplicação mínima: R$ </string>
     <string name="card_fund_days">Dias para resgate: </string>
 
-    <string name="filter">FILTROS</string>
     <string name="category">Categoria</string>
     <string name="fixed_income">Renda fixa</string>
-    <string name="different_strategy">Estratégia diferenciada</string>
+    <string name="different_strategy">Estrat. diferenciada</string>
     <string name="variable_income">Renda variável</string>
     <string name="subcategory">Subcategoria</string>
 
@@ -82,6 +89,36 @@
     <string name="fund_files">Arquivos do fundo</string>
 
     <string name="empty_list">Nenhum resultado encontrado</string>
+
+
+    <string name="detail_fund_complete_name">Nome completo do fundo: </string>
+    <string name="detail_fund_initial_date">Data de ínicio: </string>
+    <string name="detail_fund_cnpj">CNPJ: </string>
+    <string name="detail_fund_target">Público alvo: </string>
+    <string name="detail_fund_objective">Objetivo: </string>
+    <string name="detail_fund_patrimony">Patrimônio líquido médio nos últimos 12 meses:</string>
+
+
+    <string name="detail_app_min_app">Aplicação inicial mínima: </string>
+    <string name="detail_app_min_new_app">Mínimo para aplicações adicionais: </string>
+    <string name="detail_app_days_conversion">Prazo de conversão da aplicação: </string>
+    <string name="detail_app_limit_time">Horário limite para aplicações: </string>
+
+    <string name="detail_retrieval_min_value">Valor mínimo para resgate: </string>
+    <string name="detail_retrieval_min_continue">Saldo mínimo de permanência no fundo: </string>
+    <string name="detail_retrieval_days_conversion">Prazo de conversão do resgate: </string>
+    <string name="detail_retrieval_days_pay">Prazo de pagamento do resgate: </string>
+    <string name="detail_retrieval_limit_time">Horário limite para resgastes: </string>
+
+    <string name="detail_tax_manage">Administração: </string>
+    <string name="detail_tax_max_manage">Administração máxima: </string>
+    <string name="detail_tax_performance">Performance: </string>
+
+    <string name="detail_charact_strategy">Estratégia: </string>
+    <string name="detail_charact_anbima">Classificação Anbima: </string>
+    <string name="detail_charact_risk">Perfil de risco: </string>
+    <string name="detail_charact_volatility">Volatidade nos últimos 12 meses: </string>
+    <string name="detail_charact_manager">Gestor: ></string>
 
 
 </resources>

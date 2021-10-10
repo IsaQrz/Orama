@@ -8,7 +8,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.DesafioOrama.NoActionBar">
+    <style name="Theme.DesafioOrama.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
@@ -16,4 +16,9 @@
     <style name="Theme.DesafioOrama.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.DesafioOrama.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
 </resources>

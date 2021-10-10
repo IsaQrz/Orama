@@ -5,8 +5,10 @@ import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
+
 @Generated("jsonschema2pojo")
-public class FundSuitabilityProfile {
+public class FundSuitabilityProfile implements Serializable {
 
     @SerializedName("score_range_order")
     @Expose
