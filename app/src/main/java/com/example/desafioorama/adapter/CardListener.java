@@ -1,7 +1,7 @@
 package com.example.desafioorama.adapter;
 
-import com.example.desafioorama.models.CompleteFund;
+import com.example.desafioorama.models.FundInformation;
 
 public interface CardListener {
-    public void onCardClick(CompleteFund fund);
+    public void onCardClick(FundInformation fund);
 }
