@@ -36,6 +36,7 @@
     <string name="category">Categoria</string>
     <string name="fixed_income">Renda fixa</string>
     <string name="different_strategy">Estrat. diferenciada</string>
+    <string name="dif_strategy">estratégias diferenciadas</string>
     <string name="variable_income">Renda variável</string>
     <string name="subcategory">Subcategoria</string>
 
@@ -95,6 +96,7 @@
     <string name="detail_fund_initial_date">Data de ínicio: </string>
     <string name="detail_fund_cnpj">CNPJ: </string>
     <string name="detail_fund_target">Público alvo: </string>
+    <string name="detail_fund_manager">Gestor: </string>
     <string name="detail_fund_objective">Objetivo: </string>
     <string name="detail_fund_patrimony">Patrimônio líquido médio nos últimos 12 meses:</string>
 
@@ -119,6 +121,8 @@
     <string name="detail_charact_risk">Perfil de risco: </string>
     <string name="detail_charact_volatility">Volatidade nos últimos 12 meses: </string>
     <string name="detail_charact_manager">Gestor: ></string>
+
+    <string name="list_cache">Lista salva anteriormente, verifique a conexão e tente novamente!</string>
 
 
 </resources>
