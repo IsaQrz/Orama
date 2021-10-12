@@ -122,7 +122,7 @@
     <string name="detail_charact_volatility">Volatidade nos últimos 12 meses: </string>
     <string name="detail_charact_manager">Gestor: ></string>
 
-    <string name="list_cache">Lista salva anteriormente, verifique a conexão e tente novamente!</string>
+    <string name="list_cache">Verifique a conexão e tente novamente!</string>
 
 
 </resources>
