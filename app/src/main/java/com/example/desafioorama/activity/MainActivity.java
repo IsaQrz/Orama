@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements CardListener, Ada
         swipeRefresh.setOnRefreshListener(() -> {
             getListAllFunds();
             swipeRefresh.setRefreshing(false);
+            showProgressBar();
         });
     }
 
@@ -129,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements CardListener, Ada
 
     private void observableListFunds() {
         mainViewModel.getListFundsObserver().observe(this, completeFunds -> {
-            if (completeFunds != null) {
+            if (completeFunds != null && completeFunds.size()!=0) {
                 listFunds = completeFunds;
                 hideEmptyListText();
                 hideProgressBar();
@@ -148,12 +149,15 @@ public class MainActivity extends AppCompatActivity implements CardListener, Ada
     }
 
     private void showEmptyListText() {
+        recyclerView.setVisibility(View.GONE);
         empty.setVisibility(View.VISIBLE);
     }
 
     private void hideEmptyListText() {
         empty.setVisibility(View.GONE);
+        recyclerView.setVisibility(View.VISIBLE);
     }
+
 
     private void showProgressBar() {
         progressBar.setVisibility(View.VISIBLE);
