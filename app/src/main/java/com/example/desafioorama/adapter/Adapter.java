@@ -1,16 +1,12 @@
 package com.example.desafioorama.adapter;
 
 import android.content.Context;
-import android.util.Log;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Filter;
-import android.widget.Filterable;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.desafioorama.R;
@@ -25,7 +21,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Adapter extends RecyclerView.Adapter<Adapter.ListViewHolder>{
+public class Adapter extends RecyclerView.Adapter<Adapter.ListViewHolder> {
 
     private LayoutInflater layoutInflater;
     private List<FundInformation> fundData;
@@ -33,20 +29,20 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ListViewHolder>{
     private Context context;
     private CardListener cardClick;
 
-    public Adapter(Context context, List<FundInformation> data, CardListener cardClick){
+    public Adapter(Context context, List<FundInformation> data, CardListener cardClick) {
         this.context = context;
         this.layoutInflater = LayoutInflater.from(context);
         this.fundData = data;
         fullListFundData = new ArrayList<>(fundData);
-        this.cardClick=cardClick;
+        this.cardClick = cardClick;
     }
 
     public List<FundInformation> getFundData() {
         return fundData;
     }
 
-    public void setList(List<FundInformation> list){
-        if(fundData!=null){
+    public void setList(List<FundInformation> list) {
+        if (fundData != null) {
             fundData.clear();
             fullListFundData.clear();
         }
@@ -59,7 +55,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ListViewHolder>{
     @NotNull
     @Override
     public ListViewHolder onCreateViewHolder(@NonNull @NotNull ViewGroup parent, int viewType) {
-        View view = layoutInflater.inflate(R.layout.custom_card,parent, false);
+        View view = layoutInflater.inflate(R.layout.custom_card, parent, false);
         CustomCardBinding itemBinding =
                 CustomCardBinding.inflate(layoutInflater, parent, false);
         return new ListViewHolder(itemBinding);
@@ -71,12 +67,12 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ListViewHolder>{
         holder.bind(item);
 
         String profitability = fundData.get(position).getProfitabilities().getMonth();
-        Float porcent = Float.valueOf(profitability) *100;
+        Float porcent = Float.valueOf(profitability) * 100;
         holder.binding.fundProfitability.setText(String.format("%.02f", porcent));
 
         String date = fundData.get(position).getQuotaDate();
         holder.binding.dateFund.setText(date);
-        if(date !=null){
+        if (date != null) {
             SimpleDateFormat dt = new SimpleDateFormat("yyyy-mm-dd");
             try {
                 Date dateBefore = dt.parse(date);
@@ -89,8 +85,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ListViewHolder>{
         }
 
         int risk = fundData.get(position).getSpecification().getFundRiskProfile().getScoreRangeOrder();
-        //ViewObject estudar
-        switch(risk){
+
+        switch (risk) {
             case 1:
                 holder.binding.cardview.setCardBackgroundColor(context.getColor(R.color.blue_level1));
                 break;
@@ -143,11 +139,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ListViewHolder>{
     public int getItemCount() {
         try {
             return fundData.size();
-        } catch (Exception ex){return 0;}
+        } catch (Exception ex) {
+            return 0;
+        }
 
     }
 
-    public class ListViewHolder extends RecyclerView.ViewHolder{
+    public class ListViewHolder extends RecyclerView.ViewHolder {
 
         CustomCardBinding binding;
 

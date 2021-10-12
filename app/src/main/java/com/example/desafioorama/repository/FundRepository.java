@@ -1,9 +1,8 @@
 package com.example.desafioorama.repository;
 
+import android.content.Context;
 import com.example.desafioorama.models.FundInformation;
-
-import java.util.List;
-
+import java.util.ArrayList;
 import retrofit2.Call;
 
 public class FundRepository {
@@ -16,8 +15,16 @@ public class FundRepository {
         this.fundRemoteDataSource = fundRemoteDataSource;
     }
 
-    public Call<List<FundInformation>> getAllFunds(){
+    public Call<ArrayList<FundInformation>> getAllFunds() {
         return fundRemoteDataSource.getApiService().getAllFunds();
+    }
+
+    public void saveCacheListFunds(Context context, ArrayList<FundInformation> list) {
+        fundLocalDataSource.saveCache(context, list);
+    }
+
+    public ArrayList<FundInformation> getCacheListFunds(Context context) {
+        return fundLocalDataSource.getCache(context);
     }
 
 }
